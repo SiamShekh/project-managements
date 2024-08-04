@@ -3,11 +3,16 @@ import Home from "./Pages/Home";
 import DashboardLayout from "./layout/DashboardLayout";
 import Dashboard from "./Pages/Dashboard";
 import AddProjects from "./Pages/AddProjects";
+import Login from "./Pages/Login";
 
 export const Route = createBrowserRouter([
     {
         path: '/',
         element: <Home />,
+    },
+    {
+        path: '/login',
+        element: <Login />,
     },
     {
         path: '/user',
