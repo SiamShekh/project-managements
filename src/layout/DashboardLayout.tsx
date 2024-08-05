@@ -28,7 +28,7 @@ const DashboardLayout = () => {
                 </Sidebar>
             </div>
 
-            <div className={`navbar fixed top-0 left-[50%] -translate-x-[50%] mx-auto text-black backdrop-blur-xl border-b h-fit bg-black bg-opacity-20 w-fit rounded-xl my-3 ${broken ? 'block' : 'hidden'}`}>
+            <div className={`navbar fixed top-0 left-[50%] -translate-x-[50%] mx-auto text-black backdrop-blur-xl border-b h-fit bg-black bg-opacity-20 w-fit rounded-xl my-3 z-50 ${broken ? 'block' : 'hidden'}`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden" onClick={() => setToggled(true)}>

@@ -4,6 +4,7 @@ import DashboardLayout from "./layout/DashboardLayout";
 import Dashboard from "./Pages/Dashboard";
 import AddProjects from "./Pages/AddProjects";
 import Login from "./Pages/Login";
+import ProjectRequirements from "./Pages/ProjectRequirements";
 
 export const Route = createBrowserRouter([
     {
@@ -29,7 +30,11 @@ export const Route = createBrowserRouter([
             {
                 path: 'add-project',
                 element: <AddProjects />
-            }
+            },
+            {
+                path: 'add-requirements',
+                element: <ProjectRequirements />
+            },
         ]
     }
 ]);

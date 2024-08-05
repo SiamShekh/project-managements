@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import background from "../assets/images/Programmer_In_FrontOfDesktop.webp";
 
 const AddProjects = () => {
@@ -13,9 +14,9 @@ const AddProjects = () => {
                     <input
                         type="text"
                         placeholder="projects name*"
-                        className="bg-transparent outline-none px-3 py-2 rounded-xl text-black placeholder:text-black mt-5 border border-black w-full " />
+                        className="bg-transparent outline-none px-3 py-2 rounded-xl text-black placeholder:text-black my-5 border border-black w-full " />
 
-                    <button className="bg-primary w-fit mx-auto outline-none px-3 py-2 rounded-xl text-black placeholder:text-black mt-5 border border-black">Add projects</button>
+                    <Link to={'/user/add-requirements'} replace className="bg-primary w-fit mx-auto outline-none px-3 py-2 rounded-xl text-black placeholder:text-black mt-5 border border-black">Add projects</Link>
                 </div>
             </div>
         </div>
