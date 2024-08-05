@@ -51,7 +51,7 @@ const DashboardLayout = () => {
                 </div>
             </div>
 
-            <div className="px-5 pt-[20vh] text-black w-4/5">
+            <div className="px-5 lg:pt-0 pt-[20vh] text-black w-4/5 mx-auto">
                 <Outlet />
             </div>
         </div>

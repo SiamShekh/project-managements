@@ -1,6 +1,5 @@
 import { GrGoogle } from "react-icons/gr";
 import image from "../assets/images/coding.webp";
-import { BsTwitterX } from "react-icons/bs";
 
 const Login = () => {
     return (
